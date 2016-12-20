@@ -1,0 +1,14 @@
+$def with (games_list)
+
+<html>
+	<head>
+		<title>Bowl Game Spreads Ranked 2016</title>
+	</head>
+	<body>
+	$for game in games_list:
+		 <h1>$game.printing()</h1> <br/><hr width="80%">
+	$else:
+		<em>Hello</em>, world!
+	
+	</body>
+</html>
